@@ -1,0 +1,381 @@
+/* Queries up  */
+/* mobile */
+@media screen and (min-width: 576px){
+    .about{
+        background-attachment: scroll;
+    }
+    
+}
+
+/* Tablet */
+@media screen and (min-width: 768px){
+    header{
+        height: 452px;
+        background-attachment: fixed;
+    }
+
+    #header{
+        height: 85px;
+    }
+    .banner{
+        height: 500px;
+    }
+
+    .nav-list{
+      left: -77%;
+      top: -336%;
+    }
+    .icon{
+     margin-top: -31px;
+     width: 65px;
+     margin-left: -6em;
+    }
+
+    .toggle-btn{
+        margin-top: 25px;
+        margin-right: 3em;
+    }
+
+    /* banner section  */
+    .banner-text{
+        top: 30%;
+        font-size: 20px;
+    }
+
+    .banner-contact{
+        top: 50%;
+    }
+
+    /* services section */
+    .service{
+        background-attachment: fixed;
+    }
+    .excellent{
+        width: 70%;
+        margin-left: 5%;
+        padding-top: 77px;
+    }
+    
+    .service-logo{
+        width: 109px;
+        height: 109px;
+        border-radius: 39%;
+    }
+    
+    .service-logo img{
+        width: 63px;
+        margin: 25px 6px 10px 8px;
+    
+    }
+
+    .service-logo svg{
+     width: 71px;
+     margin: -25px 6px 10px 5px;
+    }
+    
+    .service-text{
+        padding-left: 38px;
+    }
+    
+    .service-text h1{
+        padding-bottom: 17px;
+    }
+    
+    .service-text p{
+        color: white;
+        font-size: 16px;
+    }
+    /* trailers section */
+    .trailers{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* end of trailer  */
+    /* about us section  */
+    .about{
+        background-attachment: fixed;
+        margin-top: 8%;
+    }
+    
+    .about-con{
+        width: 87%;
+        padding-top: 2%;
+        border-radius: 36px;
+    }
+    
+    .about-con h1{
+        text-align: center;
+    }
+    
+    .about-con svg{
+        width: 90px;
+    }
+    
+    .about-con p{
+        padding-bottom: 50px;
+        font-size: 14px;
+    }
+    /* end of about us  */
+    /* form section  */
+    .form-con form{
+        padding: 31px;
+    }
+
+    .form-con h1{
+        padding-top: 42px;
+    }
+
+    input[type=text], input[type=email], textarea{
+        margin: 12px;
+        padding: 8px 280px 16px 9px;
+    }
+
+    /* filler section  */
+    .filler-pics{
+        background-attachment: fixed;
+    }
+
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+    header{
+        height: 570px;
+        background-attachment: fixed;
+    }
+
+    #header{
+      height: 100px;
+    }
+
+    .nav-list{
+        top: -25px;
+        background: none;
+        transition: 0.9s ease;
+    }
+
+    .nav-list li{
+        font-size: 16px;
+    }
+    .logo{
+        width: 97px;
+    }
+
+    .icon{
+        margin-top: -28px;
+        width: 75px;
+        margin-left: -3em;
+    }
+    .top-nav{
+        display: block;
+    }
+    .toggle-btn{
+        display: none;
+    }
+
+    .nav-list{
+     justify-content: flex-end;
+     flex-direction: row;
+     position: relative;
+     left: -7%;
+     right: 0;
+     top: -25px;
+    }
+
+    /* banner section  */
+    .banner{
+        height: 600px;
+    }
+    .banner-text{
+     top: 32%;
+     font-size: 24px;
+     padding-top: 74px;
+    }
+
+    .banner-text h1{
+      padding-bottom: 19px;
+    }
+
+    .banner-contact{
+      top: 58%;
+    }
+
+    /* services section  */
+    .service{
+        background-attachment: fixed;
+    }
+    .excellent{
+        width: 70%;
+        margin-left: 5%;
+        padding-top: 77px;
+    }
+    
+    .service-logo{
+        width: 109px;
+        height: 109px;
+        border-radius: 39%;
+    }
+    
+    .service-logo svg{
+        width: 74px;
+        margin: -17px 6px 10px 19px;
+    
+    }
+
+    .service-logo img{
+        width: 70px;
+        margin: 18px 6px 10px 19px;
+    }
+    
+    .service-text{
+        padding-left: 3px;
+    }
+    
+    .service-text h1{
+        padding-bottom: 17px;
+    }
+    
+    .service-text p{
+        color: white;
+        font-size: 16px;
+    }
+    
+    #last{
+        padding-bottom: 56px;
+    }
+    /* end of service  */
+    /* beginning of service  */
+    .project h1{
+        padding-top: 50px;
+        font-size: 45px;
+    }
+
+    .project-underline{
+        margin-bottom: 50px;
+    }
+    /* end of project  */
+    /* trailers section  */
+    .trailers{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    trailer{
+        width: 100%;
+    }
+
+    /* end of trailer section  */
+    /* about us section  */
+    .about{
+        background-attachment: fixed;
+        margin-top: 8%;
+    }
+    
+    .about-con{
+        width: 75%;
+        padding-top: 3%;
+    }
+    
+    .about-con h1{
+        text-align: center;
+    }
+    
+    .about-con svg{
+        width: 100px;
+    }
+    
+    .about-con p{
+        padding-bottom: 50px;
+        font-size: 16px;
+    }
+    /* end of about us  */
+    /* contact section  */
+    input[type="text"], input[type="email"], textarea{
+        padding: 15px 487px 27px 14px;
+        margin: 14px;
+    }
+
+    .form-con form {
+      padding: 58px;
+    }
+
+    .form-con h1{
+        font-size: 32px;
+    }
+
+    /* filler scetion  */
+    .filler-pics{
+        background-attachment: fixed;
+    }
+
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1200px) {
+    header{
+        height: 600px;
+    }
+    .nav-list li{
+        padding: 19px;
+        font-size: 22px;
+    }
+
+  /* banner segment */
+    .banner-text{
+        top: 28%;
+        padding-top: 6em;
+    }
+
+    .banner-contact{
+        top: 58%;
+    }
+
+    /* service section  */
+    .service-text{
+        padding-left: 3px;
+    }
+    .service-text h1{
+        font-size: 25px;
+    }
+
+    .service-text p{
+        font-size: 20px;
+    }
+
+    .service-logo img{
+        margin: 18px 6px 10px 15px
+    }
+
+    .service-logo svg{
+     margin: -17px 6px 10px 13px;
+    }
+
+    /* about us section  */
+    .about-con{
+        width: 76%;
+    }
+
+    .about-con p{
+        font-size: 20px;
+        line-height: 1;
+    }
+  
+    
+}
+
+@media (min-width: 576px) { body {font-size:1rem;} } 
+@media (min-width: 768px) { body {font-size:1.2rem;} } 
+@media (min-width: 992px) { body {font-size:1.5rem;} } 
+
+/* Queries Down */
+@media screen and (max-width: 575.98px) {
+}
+
+@media screen and (max-width: 767.98px) {
+    
+}
+
+@media screen and (max-width: 991.98px) {
+}
+
+@media screen and (max-width: 1199.98px) {
+    
+}
